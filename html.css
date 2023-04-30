@@ -1,0 +1,375 @@
+
+* {
+    text-decoration: none;
+    list-style: none;
+}
+span{
+    border: 0;
+}
+.f {
+    font-family: sacramento;
+}
+.navbar{
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(3, 96, 96);
+    display: inline-flex;
+    margin: 0 auto;
+    min-width: 60px;
+}
+.info{
+    min-width: 150px;
+    position: relative;
+    top: 60px;
+    right: 95px;
+    margin: 0 auto;
+    width: 15%;
+    height: 30px;
+    background: #ffffff9c;
+    border-radius: 0 17px 20px;
+}
+@media (max-width:347px) {
+    .info{
+        min-width: 60px;
+        min-height: 80px;
+    }
+}
+@media (max-width:253px) {
+    .info{
+        top: 60px;
+        right: 70px;
+    }
+}
+.sp:hover {
+    color: rgb(17, 245, 245);
+    transition: 1s;
+    box-shadow: 4px 4px rgb(13, 79, 79);
+    background-color: rgba(6, 72, 64, 0.486);
+}
+.cse{
+    height: 200px;
+}
+.c:hover{
+    border-top: 1px solid rgb(13, 84, 84);
+    transition: 0.8s;
+    height: 1px;
+}
+.b:hover{
+    border-top: 1px solid rgb(13, 84, 84);
+    transition: 0.8s;
+}
+.a:hover{
+    border-top: 1px solid rgb(13, 84, 84);
+    transition: 0.8s;
+}
+.comimg:hover{
+    border: 1px solid rgb(31, 235, 235);
+    opacity: 0.9;
+    transition: 1s;
+    box-shadow: 4px 4px rgb(13, 79, 79);
+    background-color: rgba(6, 72, 64, 0.486);
+}
+.simg:hover{
+    border: 1px solid rgb(31, 235, 235);
+    border-radius: 75px;
+    transition: 1s;
+    box-shadow: 5px 4px rgb(13, 79, 79);
+    background-color: rgba(6, 72, 64, 0.486);
+}
+.imgpro:hover{
+    border: 2px solid rgb(2, 31, 31);
+    rotate: 0deg;
+    border-radius: 97px;
+    transition: 1s;
+    box-shadow: 7px 6px rgba(13, 79, 79, 0.5);
+}
+hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.panda{
+    padding: 2px 2px;
+    color: rgb(20, 45, 67);
+    font-family: monospace, Arial, Helvetica, sans-serif;
+    font-size: 9px;
+}
+.h1{
+    position: relative;
+    top: -5px;
+    font-size: 16px;
+    width: 150px;
+    padding: 0 10px;
+    min-width: 60px;
+}
+.hover1:hover{
+    color: rgb(5, 37, 37);
+}
+nav{
+    position: relative;
+    margin: 0 auto;
+    padding: 0 20px;
+    top: 10px;
+}
+nav ul{
+    display: inline-block;
+    min-width: 60px;
+   
+}
+nav li a{
+    min-width: 60px;
+    color: rgb(173, 164, 164);
+}
+
+
+.welcome {
+    right: 10px;
+    width: 100px;
+    height: 30px;
+    padding-right: 20px;
+    min-width: 60px;
+}
+body{
+    background-color: rgba(0, 139, 139, 0.838);
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    min-width: 60px;
+}
+.name {
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.name:hover {
+    color: rgb(33, 215, 215);
+}
+.word {
+    word-spacing: 2px;
+}
+.word:hover {
+    color: rgb(33, 215, 215);
+    word-spacing: 15px;
+}
+.imgpro {
+    margin-top: 50px;
+    border: 2px solid rgb(3, 228, 228);
+    border-radius: 90px;
+}
+.imgpro:hover {
+    rotate: 10deg;
+}
+hr {
+    border: 5px dotted rgb(0, 64, 64);
+    width: 5%;
+    border-top: 5px;
+    margin-top: 50px;
+}
+.section{
+    width: 60%;
+    margin: 0 auto;
+}
+.comimg{
+    margin: 0 auto;
+    width: 70px;
+    height: fit-content;
+}
+.sp{
+    margin-top: 20px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.skill{
+    display: inline-flex;
+    margin-top: 100px;
+}
+.c{
+    padding-bottom: 150px;
+}
+@media (max-width: 400px) {
+    .l {
+        left: 10px;
+        top: 20px;
+       position: relative;
+        margin: 0 auto;
+    }
+    .n1 ul {
+        position: relative;
+        right: 20px;
+    }
+    
+    .l1{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(13, 87, 87);
+        width: auto;
+    }
+    .bg1{
+        display: inline;
+        width: 100vh;
+        max-height: fit-content;
+        
+    }
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .skill1{
+        display: inline;
+    }
+    .a, .b, .c {
+        margin-top: 30px;
+        margin-bottom: 40px;
+        padding: 10px;
+        width: 90%;
+        border: 1px solid rgb(6, 97, 77);
+        border-top: 5px solid rgb(13, 84, 84);
+    }
+    .sp:hover {
+        color: rgb(17, 245, 245);
+        transition: 1s;
+        box-shadow: 4px 4px rgb(13, 79, 79);
+        background-color: rgba(6, 72, 64, 0.486);
+    }
+    .c:hover{
+        border-top: 1px solid rgb(13, 84, 84);
+        transition: 0.8s;
+        height: min-content;
+    }
+    .b:hover{
+        border-top: 1px solid rgb(13, 84, 84);
+        transition: 0.8s;
+    }
+    .a:hover{
+        border-top: 1px solid rgb(13, 84, 84);
+        transition: 0.8s;
+    }
+    .comimg:hover{
+        border: 1px solid rgb(31, 235, 235);
+        opacity: 0.9;
+        transition: 1s;
+        box-shadow: 4px 4px rgb(13, 79, 79);
+        background-color: rgba(6, 72, 64, 0.486);
+    }
+    .simg:hover{
+        border: 1px solid rgb(31, 235, 235);
+        border-radius: 75px;
+        transition: 1s;
+        box-shadow: 5px 4px rgb(13, 79, 79);
+        background-color: rgba(6, 72, 64, 0.486);
+    }
+    .imgpro:hover{
+        border: 2px solid rgb(2, 31, 31);
+        rotate: 0deg;
+        border-radius: 97px;
+        transition: 1s;
+        box-shadow: 7px 6px rgba(13, 79, 79, 0.5);
+    }
+    hr{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .name{
+        width: 40%;
+        margin: 50px auto;
+    }
+    .p{
+        border: 0;
+    }
+}
+@media (max-width: 600px) {
+    .l {
+        left: 10px;
+        top: 20px;
+       position: relative;
+        margin: 0 auto;
+    }
+    .n1 ul {
+        position: relative;
+        right: 20px;
+    }
+    
+    .l1{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(13, 87, 87);
+        width: auto;
+    }
+    .bg1{
+        display: inline;
+        width: 100vh;
+        max-height: fit-content;
+        
+    }
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .skill1{
+        display: inline;
+    }
+    .a, .b, .c {
+        margin-top: 30px;
+        margin-bottom: 40px;
+        padding: 10px;
+        width: 90%;
+        border: 1px solid rgb(6, 97, 77);
+        border-top: 5px solid rgb(13, 84, 84);
+    }
+    .sp:hover {
+        color: rgb(17, 245, 245);
+        transition: 1s;
+        box-shadow: 4px 4px rgb(13, 79, 79);
+        background-color: rgba(6, 72, 64, 0.486);
+    }
+    .c:hover{
+        border-top: 1px solid rgb(13, 84, 84);
+        transition: 0.8s;
+    }
+    .b:hover{
+        border-top: 1px solid rgb(13, 84, 84);
+        transition: 0.8s;
+    }
+    .a:hover{
+        border-top: 1px solid rgb(13, 84, 84);
+        transition: 0.8s;
+    }
+    .comimg:hover{
+        border: 1px solid rgb(31, 235, 235);
+        opacity: 0.9;
+        transition: 1s;
+        box-shadow: 4px 4px rgb(13, 79, 79);
+        background-color: rgba(6, 72, 64, 0.486);
+    }
+    .simg:hover{
+        border: 1px solid rgb(31, 235, 235);
+        border-radius: 75px;
+        transition: 1s;
+        box-shadow: 5px 4px rgb(13, 79, 79);
+        background-color: rgba(6, 72, 64, 0.486);
+    }
+    .imgpro:hover{
+        border: 2px solid rgb(2, 31, 31);
+        rotate: 0deg;
+        border-radius: 97px;
+        transition: 1s;
+        box-shadow: 7px 6px rgba(13, 79, 79, 0.5);
+    }
+    hr{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .name{
+        width: 40%;
+        margin: 50px auto;
+    }
+    .p{
+        border: none;
+    }
+    code{
+        border: 0;
+    }
+}
